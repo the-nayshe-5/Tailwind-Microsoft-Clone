@@ -20,15 +20,75 @@
         
         <div class="flex gap-4">
             <img src="./assets/microsoft.png" alt="Logo" class="h-14"/>
-            <div class="title text-5xl text-center font-semibold text-slate-600">
+            <div class="title text-6xl text-center font-bold text-slate-600">
                 Microsoft
             </div>
         </div>
         
-        <div class="img flex gap-16">
-            <img src="./assets/shopping-cart.png" alt="Cart" class="h-11"/>
-            <img src="./assets/account.png" alt="Cart" class="h-14"/>
+        <div class="img flex justify-between gap-36">
+            <img src="./assets/shopping-cart.png" alt="Cart" class="h-14 mt-4"/>
+            <img src="./assets/account.png" alt="Cart" class="h-20"/>
         </div>
-    </div>    
+    </div>
+    
+    <div class="bg-[#0067b8] flex justify-around px-14 py-10 text-[52px] leading-relaxed text-white font-semibold text-center ">
+        Require assistance with Microsoft 365? Call 0008004402127 to inquire or make a purchase.
+        <a href="page2.html" class="text-6xl font-extralight pr-8 mt-24">&#10095;</a>
+    </div>
+
+    <div class="sliders mx-4 ">
+        <div class="slide border-solid border-[1px] border-gray-400 shadow-md">
+            <img class="h-3/4" src="assets/Copilot.jpg" />
+            <div class="bg-yellow-400 w-fit px-9 py-4 text-5xl font-semibold mx-16 mt-14">New</div>
+            <div class="text-7xl font-semibold mx-14 mt-6">
+                Get more from Copilot
+            </div>
+            <div class="text-5xl leading-relaxed pr-16 mx-16 mt-9">
+                See how your everyday AI companion can help enhance life and work.
+            </div>
+            <div class="bg-[#0067b8] w-fit text-white rounded-md text-5xl font-semibold px-10 py-10 mx-16 mt-14">
+                <a href="Copilot_indi.html">For individuals</a>
+            </div>
+            <div class="w-fit text-5xl text-[#0067b8] font-semibold px-4 py-10 mx-16 my-7">
+                <a href="Copilot_busi.html">For business &#10095;</a>
+            </div>
+        </div>
+        <div class="slide border-solid border-[1px] border-gray-400 shadow-md">
+            <img class="w-full" src="assets/surface_pro_9.jpeg" />
+            <div class="text-7xl font-semibold mx-14 mt-16">
+                Surface Pro 9
+            </div>
+            <div class="text-5xl leading-relaxed pr-16 mx-16 mt-9">
+                Tablet versatality and laptop power – all in one ultra-portable device
+            </div>
+            <div class="bg-[#0067b8] w-fit text-white rounded-md text-5xl font-semibold px-10 py-10 mx-16 my-14">
+                <a href="Copilot_indi.html">Learn more</a>
+            </div>
+        </div>
+    <div class="flex gap-10 justify-between mx-56 mt-10">
+        <div class="w-16 mt-6" >
+            <button onclick="slideshow"><img id="play_btn" src="assets/play.png" /></button>
+        </div>
+        <div class="text-5xl font-extrabold mt-8">
+            <button onclick="plusSlides(-1)">&#10094;</button>
+        </div>
+        <div class="mt-10">
+            <button><img class="dot h-8" src="assets/black_dot.png" /></button>
+        </div>
+        <div class="mt-10">
+            <button><img class="dot h-8" src="assets/white_dot.png" /></button>
+        </div>
+        <div class="text-5xl font-extrabold mt-8">
+            <button onclick="plusSlides(1)">&#10095;</button>
+        </div>
+    </div>
+    
+ 
+
+    <div>
+
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
 </body>
 </html>
